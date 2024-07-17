@@ -43,6 +43,28 @@ body {
     margin-left: 30px;
 }
 
+.btn-4 {
+    margin-top: 30px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.btn-5 {
+    margin-top: 30px;
+    color: white;
+    background-color: #FD6E0A;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
 /* ---------------
 --------------first section style starts 
 --------------------------------------------------*/
@@ -55,6 +77,8 @@ header {
 }
 
 .name {
+    border-left: 10px solid #FD6E0A;
+    border-radius: 5px;
     font-size: 3rem;
     font-weight: 500;
     margin-top: 50px;
@@ -138,7 +162,7 @@ header {
 
     background-color: #ffecde;
     margin: 130px 230px;
-    padding: 130px 160px;
+    padding: 130px 130px;
     text-align: center;
     border-radius: 16px;
 
@@ -173,4 +197,355 @@ header {
     margin-top: 30px;
     gap: 30px;
     font-size: 1.25rem;
+}
+
+/* what i do section starts */
+.what-i-do {
+    margin: 0px 230px;
+    text-align: center;
+    margin-bottom: 130px;
+
+}
+
+.what-i-do-para {
+    padding: 30px 40px;
+    text-align: center;
+}
+
+.what-i-do-learn-part {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.box-1 {
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: rgb(255, 243, 243);
+    box-shadow: 1px 1px 10px;
+    border-radius: 5px;
+}
+
+.box-1 p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.box-2 p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.box-3 p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.box-4 p {
+    margin-top: 5px;
+    text-align: justify;
+}
+
+.box-2 {
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: rgb(255, 245, 236);
+    box-shadow: 1px 1px 10px;
+    border-radius: 5px;
+}
+
+.box-3 {
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: rgb(236, 255, 239);
+    box-shadow: 1px 1px 10px;
+    border-radius: 5px;
+}
+
+.box-4 {
+    /* border: 2px solid red; */
+    padding: 30px;
+    background-color: rgb(224, 230, 255);
+    box-shadow: 1px 1px 10px;
+    border-radius: 5px;
+}
+
+
+/* resume parts */
+.resume-part {
+    margin: 0px 230px;
+    align-items: center;
+    margin-bottom: 130px;
+
+}
+
+.resume-part-2 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.education-title {
+
+    font-size: 2rem;
+}
+
+.experience-title {
+
+    font-size: 2rem;
+
+}
+
+.resume-3-part {
+    padding: 10px 0px;
+
+}
+
+.resume-3-part h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.resume-3-part h6 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.resume-3-part p {
+    margin-bottom: 15px;
+
+}
+
+.my-education {
+    background-color: rgb(247, 225, 225);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.my-experience {
+    background-color: rgb(236, 255, 236);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.download-cv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* footer section starts */
+footer {
+    display: flex;
+    margin: 0px 230px;
+    background-color: #faeade;
+    border-radius: 20px;
+    padding-bottom: 100px;
+}
+
+.footer-half-part-1 {
+    padding: 30px 50px;
+    width: 50%;
+
+}
+
+.footer-half-part-1 p {
+    margin-top: 25px;
+}
+
+.footer-half-part-2 {
+    padding: 30px 50px;
+    width: 50%;
+
+}
+
+
+.icons {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-half-part-2 h2 {
+    padding-bottom: 30px;
+}
+
+.input-section {
+
+    padding: 18px 30px;
+    border-radius: 5px;
+    color: rgb(121, 121, 121);
+    border-color: rgb(121, 121, 121);
+    border: none;
+    width: 90%;
+}
+
+@media screen and (max-width:576px) {
+
+    /* footer parts */
+    footer {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        text-align: center;
+        margin: 0px;
+
+    }
+
+    .footer-half-part-1 {
+        width: 80%;
+        text-align: center;
+
+    }
+
+    .footer-half-part-1 p {
+
+        text-align: justify;
+
+    }
+
+    .footer-half-part-2 {
+        width: 80%;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+
+    }
+
+    /* resume parts */
+    .resume-part {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        text-align: justify;
+        margin: 0px;
+
+    }
+
+    .resume-part-2 {
+        margin: 40px;
+        padding: 0px;
+        display: inline-block;
+
+    }
+
+    .my-education {
+        margin-bottom: 50px;
+    }
+
+    /* what i do parts */
+    .what-i-do {
+        width: 100%;
+        padding: 20px;
+        display: grid;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .what-i-do-learn-part {
+        width: 100%;
+        padding: 0px;
+        display: grid;
+        text-align: center;
+        margin: 0px;
+    }
+
+    .what-i-do-para {
+        text-align: justify;
+    }
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4 {
+        margin: 0px 40px;
+    }
+
+    .about-me {
+        margin: 0px;
+        padding: 100px;
+        margin-bottom: 100px;
+
+    }
+
+    .about-me-2 {
+        padding: 50px;
+
+    }
+
+    .about-me-2-p {
+        text-align: justify;
+    }
+
+    .about-me-info {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    /* nav bar start */
+
+    header {
+        margin-bottom: 50px;
+    }
+
+    .nav-bar-style {
+        margin: 0;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .header-second-part {
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .header-second-part img {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        margin-bottom: 30px;
+    }
+
+    .header-info {
+        margin: 0px;
+    }
+
+    .header-info p {
+        margin-bottom: 30;
+        padding: 0px;
+        border: 2px solid red;
+        width: 100%;
+        text-align: justify;
+    }
+
+    .header-info h3 {
+        font-size: 1.25rem;
+    }
+
+    .header-info h1 {
+        font-size: 1.75rem;
+    }
+
+
+
 }
